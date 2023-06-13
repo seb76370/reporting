@@ -8,7 +8,7 @@ import { Test } from '../interfaces/test.interface';
 })
 export class ListfileService {
 
-  private dataUrl = './assets/datas/datas.json';
+  private dataUrl = './assets/datas.json';
 
   constructor(private http: HttpClient) { }
 
