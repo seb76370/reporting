@@ -13,20 +13,6 @@
       <img src="../../assets/logos/selha.png" alt="icone" />
     </header>
     <main>
-      <!-- <div class="selectProtocole">
-        <h4>Protocole</h4>
-        <mat-form-field>
-          <mat-label>Select protocole</mat-label>
-          <mat-select>
-            <mat-option
-              *ngFor="let protocole of protocoles"
-              [value]="protocole"
-            >
-              {{ protocole }}
-            </mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div> -->
       <div class="container">
         <div *ngFor="let Test of Tests">
           <app-card [test]="Test"></app-card>

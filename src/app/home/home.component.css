@@ -36,13 +36,16 @@ header p{
 .container{
     margin-top: 10px;
     width: 100%;
+    min-height: 90vh;
+    flex:1;
+
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     gap : 5px;
     padding: 10px;
-    Border: Green Solid 1px;
+    /* Border: Green Solid 1px; */
     background-color: #1F253D;
 }
 

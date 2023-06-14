@@ -1,9 +1,23 @@
 <div class="card">
-    <img class="acquisition" [src]="Directory + test.img" alt="img" />
-    <video autoplay controls >
-      <source [src]="Directory + test.video" type="video/mp4" />
-    </video>
-    <p class="Piezzo">Piezzo N°: <span>{{test.piezzo}}</span></p>
-    <p class="ecartype">ECARTYPE : <span>{{test.ecartype}}</span></p>
-    <p class="diff">DIFF HIGHT/LOW : <span>{{test.diff}}</span></p>
+  <img class="acquisition" [src]="Directory + test.img" alt="img" />
+  <video autoplay controls>
+    <source [src]="Directory + test.video" type="video/mp4" />
+  </video>
+  <div class="container_info">
+    <div class="info">
+      <p>
+        Piezzo N°: <span>{{ test.piezzo }}</span>
+      </p>
+    </div>
+    <div class="info">
+      <p>
+        ECARTYPE : <span>{{ test.ecartype }}</span>
+      </p>
+    </div>
+    <div class="info">
+      <p>
+        DIFF HIGHT/LOW : <span>{{ test.diff }}</span>
+      </p>
+    </div>
+  </div>
 </div>
