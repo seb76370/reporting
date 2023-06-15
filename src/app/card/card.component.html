@@ -1,6 +1,6 @@
 <div class="card">
   <img class="acquisition" [src]="Directory + test.img" alt="img" />
-  <video autoplay controls>
+  <video *ngIf="test.video" autoplay controls>
     <source [src]="Directory + test.video" type="video/mp4" />
   </video>
   <div class="container_info">
@@ -11,12 +11,17 @@
     </div>
     <div class="info">
       <p>
-        ECARTYPE : <span>{{ test.ecartype }}</span>
+        MOYENNE : <span>{{ test.moyenne }}</span>
       </p>
     </div>
     <div class="info">
       <p>
-        DIFF HIGHT/LOW : <span>{{ test.diff }}</span>
+        STD : <span>{{ test.std }}</span>
+      </p>
+    </div>
+    <div class="info">
+      <p>
+        RATIO : <span>{{ test.ratio }}</span>
       </p>
     </div>
   </div>

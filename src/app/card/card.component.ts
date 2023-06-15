@@ -10,6 +10,6 @@ export class CardComponent {
   @Input()
   test !: Test;
 
-  Directory:string= "../../assets/datas/"
+  Directory:string= "./assets/datas/"
   
 }

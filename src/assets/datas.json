@@ -1,21 +1,66 @@
 [
-    {
-      "img": "git.jpg",
-      "video": "GIT.mp4",
-      "piezzo": "1",
-      "ecartype": "114",
-      "diff": "5"
-    }, {
-      "img": "git.jpg",
-      "video": "GIT.mp4",
-      "piezzo": "1",
-      "ecartype": "114",
-      "diff": "5"
-    }, {
-      "img": "git.jpg",
-      "video": "GIT.mp4",
-      "piezzo": "1",
-      "ecartype": "114",
-      "diff": "5"
-    }
-  ]
+  {
+      "img": "p1.jpg",
+      "video": "",
+      "piezzo": "p1.txt",
+      "moyenne": "864.18",
+      "std": "3.03",
+      "ratio": "0.35"
+  },
+  {
+      "img": "p2.jpg",
+      "video": "",
+      "piezzo": "p2.txt",
+      "moyenne": "914.23",
+      "std": "3.88",
+      "ratio": "0.42"
+  },
+  {
+      "img": "p3.jpg",
+      "video": "",
+      "piezzo": "p3.txt",
+      "moyenne": "974.29",
+      "std": "5.10",
+      "ratio": "0.52"
+  },
+  {
+      "img": "p4.jpg",
+      "video": "",
+      "piezzo": "p4.txt",
+      "moyenne": "876.48",
+      "std": "12.17",
+      "ratio": "1.39"
+  },
+  {
+      "img": "p5.jpg",
+      "video": "",
+      "piezzo": "p5.txt",
+      "moyenne": "785.55",
+      "std": "6.81",
+      "ratio": "0.87"
+  },
+  {
+      "img": "p6.jpg",
+      "video": "",
+      "piezzo": "p6.txt",
+      "moyenne": "1033.37",
+      "std": "21.98",
+      "ratio": "2.13"
+  },
+  {
+      "img": "p7.jpg",
+      "video": "",
+      "piezzo": "p7.txt",
+      "moyenne": "1124.98",
+      "std": "6.81",
+      "ratio": "0.61"
+  },
+  {
+      "img": "p8.jpg",
+      "video": "",
+      "piezzo": "p8.txt",
+      "moyenne": "492.80",
+      "std": "4.13",
+      "ratio": "0.84"
+  }
+]

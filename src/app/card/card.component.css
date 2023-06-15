@@ -1,8 +1,9 @@
 .card {
   width: 350px;
+  height: 400px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-around;
+  align-items:center;
   flex-direction: column;
   gap: 10px;
   border-radius: 10px;
@@ -11,9 +12,10 @@
 
 .card img {
   width: calc(100% - 10px);
-  height: 150px;
+  height: 180px;
   padding: 5px;
-  object-fit:contain;
+  object-fit:fill;
+  /* border : solid 3px red; */
 }
 
 .card video {
@@ -25,7 +27,7 @@
 .container_info {
   width: calc(100% - 10px);
   display: flex;
-  gap: 10px;
+  gap: 5px;
   justify-content: center;
 }
 
@@ -37,7 +39,7 @@
 }
 
 .card p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   white-space: pre-wrap;
   color: white;
   background-color: #394165;
